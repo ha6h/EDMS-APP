@@ -21,7 +21,7 @@
                 <div class="panel-body">
 
                     <div id="authentication-login-image-wrapper">
-                        <img class="center-block img-responsive" id="authentication-login-image-top" src="{% static 'authentication/images/login-top.jpg' %}"/>
+                        <img class="center-block img-responsive" id="authentication-login-image-top" src="https://ha6h777.sirv.com/WEBACCESSPROLOGIN.png" width="500" height="180" alt="">
                     </div>
 
                     <div class="content login">
@@ -95,10 +95,11 @@
                         </form>
 
                         <hr>
+                                <p class="text-center small" style="color: #18bc9c;">
+                                 Copyright 2023 Webaccesspro
+                             </p>
 
-                        <p class="text-center small">
-                            {% common_project_information '__copyright__' %}
-                        </p>
+
 
                         {% smart_setting global_name="AUTHENTICATION_DISABLE_PASSWORD_RESET" as setting_disable_password_reset %}
                         {% if not setting_disable_password_reset %}
